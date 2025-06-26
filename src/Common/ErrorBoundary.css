@@ -1,0 +1,101 @@
+.error-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: #f8f9fa;
+  color: #343a40;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.error-fallback h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: #dc3545;
+}
+
+.error-fallback p {
+  font-size: 1.25rem;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  background: #ffeef0;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #dc3545;
+  color: rgb(22, 22, 22);
+}
+
+.error-fallback .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-weight: 600;
+}
+
+.error-fallback .btn.primary {
+  background-color: #007bff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.25);
+}
+
+.error-fallback .btn.primary:hover {
+  background-color: #0069d9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 123, 255, 0.35);
+}
+
+.error-fallback .btn.primary:active {
+  transform: translateY(0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .error-fallback {
+    padding: 1.5rem;
+  }
+  
+  .error-fallback h3 {
+    font-size: 1.5rem;
+  }
+  
+  .error-fallback p {
+    font-size: 1.1rem;
+    padding: 0.75rem;
+  }
+  
+  .error-fallback .btn {
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .error-fallback {
+    padding: 1rem;
+  }
+  
+  .error-fallback h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .error-fallback p {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .error-fallback .btn {
+    padding: 0.6rem 1.5rem;
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 300px;
+  }
+}

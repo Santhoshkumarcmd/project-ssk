@@ -1,0 +1,61 @@
+/* Add to your existing App.css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #3498db;
+  --primary-dark: #2980b9;
+  --secondary: #2c3e50;
+  --secondary-light: #34495e;
+  --accent: #e74c3c;
+  --light: #ecf0f1;
+  --dark: #121212;
+  --gray: #95a5a6;
+  --light-gray: #ecf0f1;
+  --transition: all 0.3s ease;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
+
+
+main {
+  padding-top: 80px; /* Space for fixed navbar */
+}
+
+.error-fallback {
+  padding: 2rem;
+  text-align: center;
+  background: rgba(231, 76, 60, 0.1);
+  border-radius: var(--border-radius);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.error-fallback h3 {
+  color: #e74c3c;
+}
+
+.error-fallback p {
+  color: var(--light-gray);
+  margin-bottom: 1rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Ensures content starts below the fixed navbar */
+.home,
+.projects,
+.skills-section {
+  padding-top: 64px;
+}

@@ -1,0 +1,230 @@
+/* AboutPage.css */
+.about-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.about-hero {
+  background: linear-gradient(135deg, #3498db, #2c3e50);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 50px;
+}
+
+.about-hero h1 {
+  font-size: 3.2rem;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+}
+
+.about-hero h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Content Sections */
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-bottom: 60px;
+}
+
+.about-container.section-title {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3498db;
+  display: inline-block;
+}
+
+.about-container .section-content {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about-container .section-content p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Education Section */
+.about-container .education-item {
+  margin-bottom: 25px;
+}
+
+.about-container .education-item h4 {
+  font-size: 1.4rem;
+  color: #2c3e50;
+  margin-bottom: 8px;
+}
+
+.about-container .institution {
+  font-size: 1.2rem;
+  color: #3498db;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.about-container .education-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.about-container .education-details span {
+  background: #e1f0fa;
+  color: #2980b9;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.95rem;
+}
+
+/* Skills Overview */
+.about-container .skills-overview {
+  padding-left: 20px;
+  margin: 25px 0;
+}
+
+.about-container .skills-overview li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  padding-left: 10px;
+}
+
+.about-container .skills-overview strong {
+  color: #3498db;
+}
+
+/* Connect Section */
+.about-container .connect-section .section-content {
+  background: linear-gradient(to right, #f8fafb, white);
+  border-left: 4px solid #3498db;
+}
+
+.about-container .cta-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-container .cta-button {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid #3498db;
+}
+
+.about-container .cta-button:hover {
+  background: white;
+  color: #3498db;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 60px 20px;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .about-hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-container .section-title {
+    font-size: 1.8rem;
+  }
+
+  .about-container .section-content {
+    padding: 25px;
+  }
+
+  .about-container .education-details {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 0 15px 40px;
+  }
+  
+  .about-hero {
+    padding: 50px 15px;
+  }
+  
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .about-hero h2 {
+    font-size: 1.3rem;
+  }
+  
+  .about-hero p {
+    font-size: 1rem;
+  }
+
+  .about-container .section-title {
+    font-size: 1.6rem;
+  }
+
+  .about-container .education-item h4 {
+    font-size: 1.2rem;
+  }
+
+  .about-container .institution {
+    font-size: 1.1rem;
+  }
+
+  .about-container .education-details {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .about-container .cta-button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+.about-container footer{
+   background: linear-gradient(135deg, #3498db, #2c3e50);
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+   border-radius: 10px 10px 0 0;
+}
