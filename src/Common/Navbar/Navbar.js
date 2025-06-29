@@ -58,8 +58,8 @@ const Navbar = () => {
 
     try {
       const endpoint = isSignup 
-        ? 'http://localhost:8080/api/auth/signup' 
-        : 'http://localhost:8080/api/auth/signin';
+        ? 'https://project-sk-wq61.onrender.com/api/auth/signup' 
+        : 'https://project-sk-wq61.onrender.com/api/auth/signin';
       
       const payload = isSignup
         ? {
